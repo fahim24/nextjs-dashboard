@@ -1,10 +1,6 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
 
-export function links() {
-  return [{ rel: 'stylesheet', href: inter }];
-}
-
 export default function RootLayout({
   children,
 }: {
